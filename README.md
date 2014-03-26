@@ -1,6 +1,7 @@
-# logwatch_restart Cookbook
+# logwatch_restart
 
-Adds a logwatch service to indicate if a system reboot is required
+The logwatch_restart Chef cookbook includes a default recipe
+to add a logwatch service that will indicate if a system reboot is required
 as the result of an update installed by unattended-upgrade.
 
 The service ignores logwatch detail level and range.
@@ -21,7 +22,7 @@ linux distrubution that can install logwatch.
 
 This cookbook lists the standard "logwatch" cookbook as a dependency,
 but the only real requirement is that logwatch is installed prior
-to running thhis defaul recipe.
+to running this default recipe.
 
 ## Using this cookbook
 
