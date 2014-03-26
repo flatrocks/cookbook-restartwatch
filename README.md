@@ -1,6 +1,6 @@
-# logwatch_restart
+# restart_watch
 
-The logwatch_restart Chef cookbook includes a default recipe
+The restart_watch Chef cookbook includes a default recipe
 to add a logwatch service that will indicate if a system reboot is required
 as the result of an update installed by unattended-upgrade.
 
