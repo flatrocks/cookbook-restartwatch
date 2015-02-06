@@ -1,4 +1,4 @@
-name             'restart_watch'
+name             'restartwatch'
 maintainer       'TRI Resources'
 maintainer_email 'tom@rollnorocks.com'
 license          'GNU Library General Public License, version 2.0'

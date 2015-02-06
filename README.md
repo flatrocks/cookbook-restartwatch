@@ -1,6 +1,9 @@
-# restart_watch
+# cookbook-restartwatch
 
-The restart_watch Chef cookbook includes a default recipe
+__Note:__ This cookbook was previously available as "restart-watch".
+My apologies for any inconvenience with the change.
+
+The restartwatch Chef cookbook includes a default recipe
 to add a logwatch service that will indicate if a system reboot is required
 as the result of an update installed by unattended-upgrade.
 
@@ -11,6 +14,16 @@ added to the report, otherwise it's not.
 For a more complete description of how this works,
 check out [Extending logwatch](http://www.rollnorocks.com/2014/03/extendinglogwatch/)
 on the RollNoRocks blog.
+
+## Berkshelf and librarian
+```ruby
+  # Berkshelf:
+  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', tag: '0.2.0'
+
+
+  # librarian-chef:
+  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', ref: '0.2.0'
+```
 
 ## Supported platforms
 

@@ -1,4 +1,4 @@
-restart_watch cookbook
+restartwatch cookbook
 Copyright (C) 2014  Roll No Rocks llc
 
 This program is free software; you can redistribute it and/or

@@ -1,6 +1,6 @@
 require_relative '../spec_helper'
 
-describe 'restart_watch::default' do
+describe 'restartwatch::default' do
   subject { ChefSpec::SoloRunner.new.converge(described_recipe) }
 
   describe 'the conf file' do
