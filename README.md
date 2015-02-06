@@ -18,11 +18,11 @@ on the RollNoRocks blog.
 ## Berkshelf and librarian
 ```ruby
   # Berkshelf:
-  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', tag: '0.2.0'
+  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', tag: '0.3.0'
 
 
   # librarian-chef:
-  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', ref: '0.2.0'
+  cookbook 'restartwatch', github: 'flatrocks/cookbook-restartwatch', ref: '0.3.0'
 ```
 
 ## Supported platforms
