@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
 
 describe 'restart_watch::default' do
-  subject { ChefSpec::Runner.new.converge(described_recipe) }
+  subject { ChefSpec::SoloRunner.new.converge(described_recipe) }
 
   describe 'the conf file' do
     let(:filename) {'/etc/logwatch/conf/services/restart.conf'}

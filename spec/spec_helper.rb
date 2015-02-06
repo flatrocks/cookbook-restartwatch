@@ -1,5 +1,5 @@
 require 'chefspec'
-require 'chefspec/librarian'
+require 'chefspec/berkshelf'
 
 RSpec.configure do |config|
   config.platform = 'ubuntu'
